@@ -38,7 +38,7 @@ if (process.argv[2] == 'concert-this' ) {
     var songName = process.argv.slice(3).join(" ");
 
     if (songName == undefined) {
-        songName = "The sign by Ace of Base";
+        songName = "Venom by Eminem";
     } 
    
 
@@ -78,7 +78,7 @@ if (process.argv[2] == 'concert-this' ) {
     var movieName = process.argv.slice(3).join(" ");
 
     if (movieName == undefined) {
-        movieName = "Mr. Nobody";
+        movieName = "Avengers Endgame";
     } 
 
     request('http://www.omdbapi.com/?i=tt3896198&apikey=c7916447' + process.argv[3], function (error, response, body) {
